@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Darumadrop+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible+Next:ital,wght@0,200..800;1,200..800&display=swap');
+
+body {font-family: "Atkinson Hyperlegible Next", serif;}
+
+.reactable {
+  font-family: "Atkinson Hyperlegible Next", serif;
+}
+
+p {
+  margin: 0;
+  padding: 5px 0;
+}
+
+@mixin header-spacing {
+  margin: 5px 0;
+  padding: 5px 0;
+}
+
+// header styling 
+
+.header {
+  &-0 {
+    margin: 0;
+    padding: 0;
+    font-family: "Darumadrop One", serif;
+    font-size: 5rem; 
+  }
+
+  &-1 {
+    margin: 0;
+    padding: 0;
+    font-family: "Darumadrop One", serif;
+    font-size: 2.5rem;
+  }
+
+  &-2 {
+    margin: 0;
+    padding: 0;
+    font-family: "Darumadrop One", serif;
+    font-size: 2rem; 
+  }
+
+  &-3 {
+    margin: 0;
+    padding: 0;
+    font-family: "Darumadrop One", serif;
+    font-size: 1.5rem; 
+  }
+}
+
+// paragraph styling 
+.txt-light {color: #999;}
+
+
+
+.paragraph {text-indent: 2rem;}
+
+.txt-left {text-align: left;}
+.txt-right {text-align: right;}
+.txt-center {text-align: center;}
+
+.txt-heavy {color: #222;}
+.txt-medium {color: #666;}
+// paragraph styling
+
+// Typography Utilities
+.text-body {
+  font-family: "Atkinson Hyperlegible Next", serif;
+  line-height: 1.6;
+  color: #333;
+}
+
+// Combined size & weight classes
+.text-sm-light {
+  font-size: 0.875rem;
+  font-weight: 300;
+}
+
+.text-sm-regular {
+  font-size: 0.875rem;
+  font-weight: 400;
+}
+
+.text-sm-bold {
+  font-size: 0.875rem;
+  font-weight: 700;
+}
+
+.text-md-light {
+  font-size: 1rem;
+  font-weight: 300;
+}
+
+.text-md-regular {
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+.text-md-bold {
+  font-size: 1rem;
+  font-weight: 700;
+}
+
+.text-lg-light {
+  font-size: 1.25rem;
+  font-weight: 300;
+}
+
+.text-lg-regular {
+  font-size: 1.25rem;
+  font-weight: 400;
+}
+
+.text-lg-bold {
+  font-size: 1.25rem;
+  font-weight: 700;
+}
+
+.text-xl-light {
+  font-size: 1.5rem;
+  font-weight: 300;
+}
+
+.text-xl-regular {
+  font-size: 1.5rem;
+  font-weight: 400;
+}
+
+.text-xl-bold {
+  font-size: 1.5rem;
+  font-weight: 700;
+}

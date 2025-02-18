@@ -1,0 +1,66 @@
+header {
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+}
+
+nav li {
+  margin: 0;
+  padding: 0;
+  display: inline;
+  list-style-type: none;
+}
+
+
+nav a {
+    margin: 0;
+    padding: 25px;
+    text-decoration: none;
+}
+  
+nav a:hover {
+  text-decoration: underline;
+  text-decoration-thickness: 3px;
+  text-underline-offset: 5px;
+}
+
+// banner configuration
+
+// container
+
+.banner-center {
+  display: grid;
+  margin: 0 auto;
+  padding: 0;
+}
+
+.banner-article {
+  display: grid;
+  margin: 0 auto;
+  padding: 25px 0 75px 0;
+  width: 85%;
+}
+
+
+.banner-item {
+  margin: 0 auto;
+  padding: 0;
+
+}
+
+.banner-callout {
+  margin: 0 auto;
+  padding: 25px 0;
+  width: 70%;
+}
+
+
