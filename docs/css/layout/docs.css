@@ -1,0 +1,59 @@
+.docs-layout {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+}
+
+.docs-item {
+  flex: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0;
+  overflow-y: auto;
+  scroll-behavior: smooth;
+}
+
+.docs-item {
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+.docs-item-:-webkit-scrollbar {
+  display: none;
+}
+
+.docs-nav {
+  flex: 20%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0;
+  overflow-y: auto;
+  scroll-behavior: smooth;
+}
+
+.docs-nav {
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+.docs-nav-:-webkit-scrollbar {
+  display: none;
+}
+
+section {
+  margin: 0;
+  padding: 10px 0;
+}
+
+.docs-wrapper {
+  margin: 0 auto;
+  padding: 100px 0;
+  width: 50%;
+}
+
+.docs-img img {
+  display: flex;
+  margin: 0 auto;
+  padding: 25px 0;
+  width: 725px;
+  height: 500px;
+}
