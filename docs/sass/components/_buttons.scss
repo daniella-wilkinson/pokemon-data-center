@@ -1,0 +1,14 @@
+.twist1 img:hover {
+  transform: scale(1.5) rotate(5deg);
+  transition-duration: 0.1s;
+}
+
+.twist2 img:hover {
+  transform: scale(1.5) rotate(-10deg);
+  transition-duration: 0.1s;
+}
+
+.twist3 img:hover {
+  transform: scale(1.5) rotate(10deg);
+  transition-duration: 0.1s;
+}

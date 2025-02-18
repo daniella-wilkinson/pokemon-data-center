@@ -1,0 +1,22 @@
+// page 
+
+@use "base/body";
+@use "base/header";
+@use "base/footer";
+
+// page layouts  
+
+@use "layout/homepage";
+@use "layout/reg-profile";
+@use "layout/docs";
+
+// graphic components  
+
+@use "abstracts/colors";
+@use "abstracts/type";
+
+// button components 
+
+@use "components/buttons";
+
+// @use "vendors/";

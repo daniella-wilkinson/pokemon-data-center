@@ -1,0 +1,134 @@
+.onehalf-layout {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+}
+
+.onehalf-item {
+  flex: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0;
+  overflow-y: auto;
+  scroll-behavior: smooth;
+}
+
+// scroll bar removal
+
+.onehalf-item {
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+
+  &-:-webkit-scrollbar {
+    display: none;
+  }
+}
+
+// map
+
+.map {
+  margin: 0 auto;
+  padding: 0;
+  width: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.map ol {
+  list-style-position: inside; 
+  padding-left: 0; 
+}
+
+.map ol li {
+  font-size: 2rem;
+  font-family: "Darumadrop One", serif;
+  margin: 8px 0;
+
+  a {
+    display: inline-block; 
+  }
+
+  a:hover {
+    text-decoration: underline;
+    text-decoration-thickness: 3px;
+    text-underline-offset: 5px;
+  }
+}
+
+// card grid 
+
+.three-col-grid {
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0;
+  height: 100vh; 
+  width: 100vw;
+  max-width: 100%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, auto);
+  overflow-y: auto;
+}
+
+.three-col-grid-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  aspect-ratio: 1 / 1; 
+  
+  // border styling 
+  border: solid 1px #f2cf70; 
+  box-sizing: border-box;
+
+  a {
+    text-decoration: none;
+    color: #333;
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+
+  .blurb {
+    font-size: 1rem;
+    color: #333;
+    width: 90%;
+    max-width: 90%;
+    text-align: center;
+  }
+}
+
+.three-col-grid-item img {
+  width: 150px;
+  height: 225px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0;
+}
+
+// grid responsiveness 
+
+@media (max-width: 768px) {
+  .three-col-grid {
+    grid-template-columns: repeat(2, 1fr); 
+    grid-template-rows: repeat(4, auto); 
+    height: 100vh; 
+  }
+}
+
+@media (max-width: 480px) {
+  .three-col-grid {
+    grid-template-columns: repeat(1, 1fr); 
+    grid-template-rows: repeat(6, auto);
+    height: 100vh;
+  }
+}
+
+@media (max-width: 480px) {
+  .three-col-grid {
+    grid-template-columns: repeat(2, 1fr); 
+    grid-template-rows: repeat(2, 1fr);
+    height: 60vh;
+  }
+}
