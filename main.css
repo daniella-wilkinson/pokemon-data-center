@@ -1,8 +1,8 @@
 /* layout a  */
 
-@import url('/layoutA/nav.css');
-@import url('/layoutA/body.css');
-@import url('/layoutA/footer.css');
+@import url('./layoutA/nav.css');
+@import url('./layoutA/body.css');
+@import url('./layoutA/footer.css');
 
 /* layout b */
 
@@ -10,11 +10,11 @@
 @import url('/layoutB/post-pg.css');
 @import url('/layoutB/docs-pg.css');
 
-@import url('/layoutB/layout.css');
+@import url('./layoutB/layout.css');
 
 
 /* assets */
 
-@import url('/assets/type.css');
-@import url('/assets/color.css');
-@import url('/assets/button.css');
+@import url('./assets/type.css');
+@import url('./assets/color.css');
+@import url('./assets/button.css');
