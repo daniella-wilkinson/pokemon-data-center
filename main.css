@@ -6,12 +6,9 @@
 
 /* layout b */
 
-@import url('/layoutB/menu-pg.css');
-@import url('/layoutB/post-pg.css');
-@import url('/layoutB/docs-pg.css');
-
-@import url('./layoutB/layout.css');
-
+@import url('./layoutB/menu-pg.css');
+@import url('./layoutB/post-pg.css');
+@import url('./layoutB/docs-pg.css');
 
 /* assets */
 
