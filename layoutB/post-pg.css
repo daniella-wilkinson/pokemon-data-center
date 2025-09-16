@@ -1,0 +1,45 @@
+/* ------------------------------------------------------------------------ */
+/*  content wrappers */
+/* ------------------------------------------------------------------------ */
+
+.wrapper-C {
+  margin-top: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 90px;
+  padding: 0;
+  max-width: 90%;
+}
+
+.wrapper-D {
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0;
+  max-width: 80%;
+}
+
+/* ------------------------------------------------------------------------ */
+
+.article-container {
+  margin: 0 auto;
+  padding: 0;
+  width: 50%;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.article-item {
+  padding: 0 0 100px 0;
+  height: 100%;
+}
+
+/* scrollbar styling  */
+
+.article-item {
+  overflow-y: scroll;
+  scroll-behavior: smooth;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+
+.article-item::-webkit-scrollbar {display: none;}

@@ -1,0 +1,22 @@
+.dir-navbar {
+  margin: 0;
+  padding: 30px 0 0 0;
+  display: flex;
+  width: 100%;
+}
+
+.dir-navbar-item {
+  margin: 0;
+  padding: 0;
+  flex: 50%;
+  display: flex;
+  justify-content: right;
+}
+
+.btn {
+  margin: 0;
+  padding: 10px 20px;
+  background-color: #ADADAD;
+  border-radius: 10px;
+}
+
